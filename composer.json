@@ -10,7 +10,8 @@
   "require": {
     "php": ">=7.4",
     "vkcom/kphp-polyfills": "^1.0",
-    "nyan02/kphp_oauth2_client": "dev-master"
+    "nyan02/kphp_oauth2_client": "dev-master",
+    "nyan02/kphp_jwt": "dev-master"
   },
   "autoload": {
     "psr-4": {

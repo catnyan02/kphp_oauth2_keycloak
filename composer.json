@@ -1,0 +1,20 @@
+{
+  "name": "nyan02/kphp_oauth2_keycloak",
+  "description": "Keycloak Client Provider for KPHP OAuth2 Client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nastya Nesterenko"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "vkcom/kphp-polyfills": "^1.0",
+    "nyan02/kphp_oauth2_client": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "nyan02\\kphp_oauth2_client\\": "src"
+    }
+  }
+}

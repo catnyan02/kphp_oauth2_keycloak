@@ -6,8 +6,8 @@ use nyan02\kphp_oauth2_client\Provider\Keycloak;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$provider = new Keycloak('{google-client-id}',
-    '{google-client-secret}',
+$provider = new Keycloak('{keycloak-client-id}',
+    '{keycloak-client-secret}',
     'https://example.com/callback-url',
     );
     
